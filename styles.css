@@ -1,16 +1,15 @@
 /* Style global pour le corps de la page */
 body {
-    font-family: Arial, sans-serif;
-    background-color: red;
-    color: red;
+    font-family: 'Roboto', sans-serif; /* Police plus légère et moderne */
+    background-color: #f4f4f9;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
-
-/* Style pour l'en-tête */
+/* Style pour l'en-tête (ligne verte) */
 header {
-    background-color: #003366;
+    background-color: #28a745; /* Vert agréable et dynamique */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -20,7 +19,38 @@ header {
 .container {
     width: 80%;
     margin: 20px auto;
-  
+}
+
+/* Style des titres principaux */
+h1, h2 {
+    color: #003366;
+}
+
+/* Style des sections d'expérience (emploi et bénévolat) */
+.experience, .job-section, .info-section {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des titres dans les expériences */
+.experience h3, .job-section h3, .info-section h3 {
+    margin: 0;
+    color: #003366;
+}
+
+/* Style des paragraphes dans les expériences */
+.experience p, .job-section p, .info-section p {
+    margin: 5px 0;
+    font-weight: normal;  /* Moins de poids pour une lecture plus légère */
+    line-height: 1.6; /* Espacement entre les lignes pour une meilleure lisibilité */
+}
+
+/* Font-family pour les sections de texte */
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Style des titres principaux */
