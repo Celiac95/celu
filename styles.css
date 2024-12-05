@@ -1,53 +1,101 @@
 /* Style global pour le corps de la page */
 body {
     font-family: 'Roboto', sans-serif; /* Police plus légère et moderne */
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #f7f7fb; /* Couleur de fond douce et moderne */
+    color: #333; /* Texte sombre pour une bonne lisibilité */
     margin: 0;
     padding: 0;
+    line-height: 1.6; /* Espacement pour une lecture agréable */
 }
 
 /* Style pour l'en-tête (ligne verte) */
 header {
-    background-color: #28a745; /* Vert agréable et dynamique */
+    background-color: #4CAF50; /* Vert vibrant et énergique */
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0; /* Plus de padding pour un effet plus aérien */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour donner de la profondeur */
+    font-size: 2rem; /* Taille de texte plus grande pour plus d'impact */
+    letter-spacing: 1px; /* Espacement entre les lettres pour un style plus moderne */
 }
 
 /* Style pour la zone de contenu */
 .container {
-    width: 80%;
-    margin: 20px auto;
+    width: 85%;
+    margin: 30px auto; /* Marge supérieure plus large pour espacer du header */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; /* Coins arrondis pour un effet plus doux */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre portée pour ajouter de la profondeur */
 }
 
 /* Style des titres principaux */
 h1, h2 {
-    color: #003366;
+    color: #003366; /* Bleu foncé pour les titres */
+    font-weight: 600; /* Police plus épaisse pour plus de présence */
+    margin-bottom: 15px; /* Marge sous les titres pour aérer */
 }
 
 /* Style des sections d'expérience (emploi et bénévolat) */
 .experience, .job-section, .info-section {
     background-color: #ffffff;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px 0; /* Marges plus larges pour aérer les sections */
+    border-radius: 8px; /* Coins arrondis pour un effet plus moderne */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Ombre douce et subtile */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; /* Animation pour interactivité */
+}
+
+.experience:hover, .job-section:hover, .info-section:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Ombre plus marquée au survol */
 }
 
 /* Style des titres dans les expériences */
 .experience h3, .job-section h3, .info-section h3 {
     margin: 0;
-    color: #003366;
+    color: #003366; /* Bleu foncé pour la cohérence avec les titres principaux */
+    font-weight: 600;
+    font-size: 1.2rem; /* Taille de texte un peu plus grande pour les sous-titres */
 }
 
 /* Style des paragraphes dans les expériences */
 .experience p, .job-section p, .info-section p {
-    margin: 5px 0;
-    font-weight: normal;  /* Moins de poids pour une lecture plus légère */
-    line-height: 1.6; /* Espacement entre les lignes pour une meilleure lisibilité */
+    margin: 8px 0; /* Espacement un peu plus large entre les paragraphes */
+    font-weight: normal;
+    color: #555; /* Couleur plus claire pour les paragraphes */
 }
 
+/* Style pour les liens */
+a {
+    color: #007bff; /* Bleu vif pour les liens */
+    text-decoration: none; /* Enlever le soulignement */
+    font-weight: 500; /* Légèrement plus épais pour plus de lisibilité */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol pour une meilleure interaction */
+}
+
+/* Font-family pour les sections de texte */
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style pour les boutons */
+button {
+    background-color: #007bff; /* Bleu vif pour un bouton attrayant */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Coins arrondis pour plus de douceur */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol pour un effet interactif */
+}
 /* Font-family pour les sections de texte */
 p {
     font-family: 'Roboto', sans-serif;
